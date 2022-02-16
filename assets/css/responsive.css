@@ -1,0 +1,57 @@
+
+/* 
+   PC: >= 1024px
+   TABLET: >= 740px & < 1024px
+   MOBILE: <740px 
+*/
+
+/*  MOBILE */
+@media (max-width: 740px) {
+    .col-sm-1 {
+        width: 100%;
+    }
+    .mt-sm-8 {
+        margin-top: 8px;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    #header .menu-mobile-btn {
+        display: block;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .place-item {
+        margin-bottom: 16px;
+    }
+
+    #contact .contact-form {
+        margin-top: 16px;
+    }
+}
