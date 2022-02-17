@@ -5,8 +5,29 @@
    MOBILE: <740px 
 */
 
+/* TABLET & MOBILE */
+@media (max-width:63.9375em) {
+    #content .place-buy-btn {
+        padding: 14px 18px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    #footer .socials-list {
+        font-size: 30px;
+    }
+    #footer .socials-list a {
+        margin: 0px 8px;
+    }
+
+    #footer .copyright a {
+        display: inline-block;
+        padding: 12px 0;
+    }
+}
+
 /*  MOBILE */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .col-sm-1 {
         width: 100%;
     }

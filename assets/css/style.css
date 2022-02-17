@@ -198,7 +198,7 @@ background-repeat.
     position: relative;
     margin-top: 46px;
     padding-top: 50%; 
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../../assets/img/slider/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -220,6 +220,7 @@ background-repeat.
     font-size: 15px;
     font-weight: bold;
     margin: 15px 0;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -354,13 +355,13 @@ background-repeat.
 #content .place-buy-btn {
     display: inline-block;
     margin-top: 15px;
-    width: 108px;
-    height: 38px;
+    padding: 10px 18px;
     background-color: #000;
     color: #fff;
     text-decoration: none;
     text-align: center;
-    line-height: 38px;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 #content .place-buy-btn:hover {
@@ -511,6 +512,8 @@ background-repeat.
     padding: 10px 16px;
     float: right;
     cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .contact-form .btn-form-contact:hover {
